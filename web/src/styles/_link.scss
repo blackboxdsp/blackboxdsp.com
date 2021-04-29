@@ -1,0 +1,9 @@
+/**
+ * This SCSS file contains all of the anchor tag / link stylings.
+ */
+
+.link {
+    &:hover {
+        text-decoration: underline;
+    }
+}

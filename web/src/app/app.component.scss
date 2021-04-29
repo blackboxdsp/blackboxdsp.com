@@ -1,0 +1,20 @@
+@import 'variables';
+
+.page-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    width: auto;
+    padding: 2rem;
+
+    .page-title {
+        margin-bottom: 2rem;
+    }
+
+    .page-info {
+        color: $color-secondary;
+        text-align: center;
+    }
+}
